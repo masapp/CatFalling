@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581C53811BB13DAD0033639E /* shiro.png in Resources */ = {isa = PBXBuildFile; fileRef = 581C53801BB13DAD0033639E /* shiro.png */; };
+		581C53831BB143200033639E /* tora.png in Resources */ = {isa = PBXBuildFile; fileRef = 581C53821BB143200033639E /* tora.png */; };
+		581C53851BB1444B0033639E /* kuro.png in Resources */ = {isa = PBXBuildFile; fileRef = 581C53841BB1444B0033639E /* kuro.png */; };
 		58E87D011B9EB46800D31FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E87D001B9EB46800D31FCD /* AppDelegate.swift */; };
-		58E87D031B9EB46800D31FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E87D021B9EB46800D31FCD /* ViewController.swift */; };
+		58E87D031B9EB46800D31FCD /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E87D021B9EB46800D31FCD /* TitleViewController.swift */; };
 		58E87D061B9EB46800D31FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E87D041B9EB46800D31FCD /* Main.storyboard */; };
 		58E87D081B9EB46800D31FCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E87D071B9EB46800D31FCD /* Images.xcassets */; };
 		58E87D0B1B9EB46800D31FCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58E87D091B9EB46800D31FCD /* LaunchScreen.xib */; };
 		58E87D171B9EB46800D31FCD /* catFallingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E87D161B9EB46800D31FCD /* catFallingTests.swift */; };
+		58E87D241B9EBAB400D31FCD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E87D231B9EBAB400D31FCD /* GameViewController.swift */; };
+		58E87D2A1B9EBDE800D31FCD /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E87D291B9EBDE800D31FCD /* back.png */; };
+		58E87D2C1B9EC72500D31FCD /* pad.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E87D2B1B9EC72500D31FCD /* pad.png */; };
+		58E87D2E1B9EFA4800D31FCD /* mike.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E87D2D1B9EFA4800D31FCD /* mike.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		581C53801BB13DAD0033639E /* shiro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shiro.png; sourceTree = "<group>"; };
+		581C53821BB143200033639E /* tora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tora.png; sourceTree = "<group>"; };
+		581C53841BB1444B0033639E /* kuro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuro.png; sourceTree = "<group>"; };
 		58E87CFB1B9EB46800D31FCD /* catFalling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catFalling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E87CFF1B9EB46800D31FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E87D001B9EB46800D31FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58E87D021B9EB46800D31FCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58E87D021B9EB46800D31FCD /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
 		58E87D051B9EB46800D31FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58E87D071B9EB46800D31FCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		58E87D0A1B9EB46800D31FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		58E87D101B9EB46800D31FCD /* catFallingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catFallingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E87D151B9EB46800D31FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E87D161B9EB46800D31FCD /* catFallingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catFallingTests.swift; sourceTree = "<group>"; };
+		58E87D231B9EBAB400D31FCD /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		58E87D291B9EBDE800D31FCD /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		58E87D2B1B9EC72500D31FCD /* pad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pad.png; sourceTree = "<group>"; };
+		58E87D2D1B9EFA4800D31FCD /* mike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mike.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +91,10 @@
 		58E87CFD1B9EB46800D31FCD /* catFalling */ = {
 			isa = PBXGroup;
 			children = (
+				58E87D201B9EB52F00D31FCD /* texture */,
 				58E87D001B9EB46800D31FCD /* AppDelegate.swift */,
-				58E87D021B9EB46800D31FCD /* ViewController.swift */,
+				58E87D021B9EB46800D31FCD /* TitleViewController.swift */,
+				58E87D231B9EBAB400D31FCD /* GameViewController.swift */,
 				58E87D041B9EB46800D31FCD /* Main.storyboard */,
 				58E87D071B9EB46800D31FCD /* Images.xcassets */,
 				58E87D091B9EB46800D31FCD /* LaunchScreen.xib */,
@@ -110,6 +126,19 @@
 				58E87D151B9EB46800D31FCD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58E87D201B9EB52F00D31FCD /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				58E87D291B9EBDE800D31FCD /* back.png */,
+				58E87D2B1B9EC72500D31FCD /* pad.png */,
+				58E87D2D1B9EFA4800D31FCD /* mike.png */,
+				581C53801BB13DAD0033639E /* shiro.png */,
+				581C53821BB143200033639E /* tora.png */,
+				581C53841BB1444B0033639E /* kuro.png */,
+			);
+			name = texture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +222,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				58E87D061B9EB46800D31FCD /* Main.storyboard in Resources */,
+				581C53831BB143200033639E /* tora.png in Resources */,
+				581C53851BB1444B0033639E /* kuro.png in Resources */,
+				58E87D2A1B9EBDE800D31FCD /* back.png in Resources */,
 				58E87D0B1B9EB46800D31FCD /* LaunchScreen.xib in Resources */,
 				58E87D081B9EB46800D31FCD /* Images.xcassets in Resources */,
+				58E87D2C1B9EC72500D31FCD /* pad.png in Resources */,
+				58E87D2E1B9EFA4800D31FCD /* mike.png in Resources */,
+				581C53811BB13DAD0033639E /* shiro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +247,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58E87D031B9EB46800D31FCD /* ViewController.swift in Sources */,
+				58E87D031B9EB46800D31FCD /* TitleViewController.swift in Sources */,
+				58E87D241B9EBAB400D31FCD /* GameViewController.swift in Sources */,
 				58E87D011B9EB46800D31FCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = catFalling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = catFalling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +445,7 @@
 				58E87D1C1B9EB46800D31FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58E87D1D1B9EB46800D31FCD /* Build configuration list for PBXNativeTarget "catFallingTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +454,7 @@
 				58E87D1F1B9EB46800D31FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
